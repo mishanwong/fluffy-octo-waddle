@@ -230,6 +230,7 @@ hr {
   margin-right: 10px;
 }
 .pdesc {
+  min-height: 80px;
 }
 .pend {
   clear: both;
@@ -272,4 +273,25 @@ hr {
 .nodot {
   list-style-type: none;
   padding-left: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  line-height: 1.8; /* Increase line height */
+}
+
+.pill-container {
+  display: flex;
+  gap: 10px;
+}
+
+.pill {
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  padding: 3px 8px;
+  font-size: 12px;
 }

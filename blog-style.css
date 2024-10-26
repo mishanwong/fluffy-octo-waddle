@@ -1,0 +1,89 @@
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #fff;
+  padding-bottom: 400px;
+}
+
+section {
+  margin: 30px auto;
+}
+a {
+  color: black;
+}
+p {
+  margin-block-start: 0;
+}
+#nav {
+  height: 20px;
+  padding: 10px;
+  background-color: #000;
+}
+#nav a {
+  text-decoration: none;
+  color: #0f0;
+  font-family: "Courier New", Courier, monospace;
+}
+#main {
+  max-width: 700px;
+  margin: 4% auto;
+  line-height: 1.5;
+  color: #222;
+  padding: 0 10px;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+h2 {
+  margin-top: 0;
+  color: #888;
+  font-size: 1em;
+  font-weight: 400;
+}
+h3 {
+  margin: 5px 0;
+  font-size: 1em;
+}
+img {
+  max-width: 100%;
+}
+.imgcap {
+  color: #555;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.post {
+  margin-bottom: 20px;
+}
+.post-date {
+  display: inline;
+}
+.post-title {
+  display: inline;
+}
+.post-preview {
+  color: #555;
+  font-size: 14px;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 20px;
+  padding: 10px 20px;
+  border-left: 5px solid #ccc;
+  background-color: #f9f9f9;
+  color: #555;
+  quotes: "“" "”" "‘" "’"; /* Custom quote marks */
+}
+
+li {
+  font-weight: 500;
+  color: #555;
+}
